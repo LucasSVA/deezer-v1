@@ -288,7 +288,6 @@ h1 {
 }
 
 .button-rose {
-
     border: solid 0.1rem #ef5466;
     color: white;
     border-radius: 1rem;
@@ -329,4 +328,54 @@ h1 {
     font-size: 0.5rem;
     color: #8e8e81;
     padding: 7vh 0 4vh 0;
+}
+
+.section-6 {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh
+}
+
+.horizontal {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e7e6;
+    padding: 3vh 5vw 3vh 5vw;
+    height: 14vh;
+}
+
+.annuel {
+    font-size: 1.3rem;
+    padding-bottom: 1vh;
+
+}
+
+.premium {
+    font-size: 0.9rem;
+    padding-bottom: 0.2vh;
+
+
+}
+
+.horizontal a {
+    text-decoration: none;
+    color: #2d96c8;
+    font-size: 0.6rem;
+}
+
+.button-last {
+    border: solid 0.1rem #696868;
+    color: #696868;
+    border-radius: 1rem;
+    background-color: transparent;
+    height: 4vh;
+    width: 8vw;
+    margin-top: 2vh;
+}
+
+.percent {
+    color: #ef5466;
+    font-weight: 700;
 }
