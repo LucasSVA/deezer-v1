@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 3vh 5vw;
+    width: 80vw;
+    background-color: #f2f7f4;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-nav {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+
+nav button {
+    border: solid 0.1rem #2d96c8;
+    color: #2d96c8;
+    border-radius: 1rem;
+    background-color: white;
+    height: 4vh;
+    width: 8vw;
+
+}
+
+nav :last-child {
+    color: white;
+    background-color: #2d96c8;
+    border: solid 0.1rem #2d96c8;
+    border-radius: 1rem;
+    height: 4vh;
+    width: 8vw;
+}
