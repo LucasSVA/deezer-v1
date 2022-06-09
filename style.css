@@ -4,8 +4,7 @@
 
 header {
     padding: 3vh 5vw;
-    width: 80vw;
-    background-color: #f9f9f9;
+    width: 75vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -51,10 +50,10 @@ nav :last-child {
 
 .section-1 {
     display: flex;
-    width: 80vw;
+    width: 75vw;
     margin: auto;
-    background-color: #f9f9f9;
-    padding: 0 10vw 0 10vw;
+
+    padding: 0 5vw 0 10vw;
     border-top: solid 0.1rem #8e8e81;
 }
 
@@ -96,10 +95,80 @@ h1 {
 }
 
 .background {
-    width: 28vw;
+    width: 29vw;
     height: 38vh;
     background-image: url('img/hero.png');
     background-repeat: repeat;
     background-size: cover;
+    margin-left: 5vw;
 
+}
+
+.section-2 {
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 5vh 9vw 5vh 8vw;
+}
+
+.phone-pic {
+    width: 17vw;
+}
+
+.titre {
+    font-size: 1.7rem;
+    padding-left: 4vw;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding-bottom: 7vh;
+}
+
+.container-1 {
+    display: flex;
+    gap: 2vw;
+    padding-left: 4vw;
+
+}
+
+.container-1 h5 {
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+
+.article-box p {
+    font-size: 0.7rem;
+    padding: 4vh 0 4vh 0;
+}
+
+.section-3 {
+    width: 75vw;
+    margin: auto;
+    background-color: #ef5466;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 4vh 4vw 4vh 0;
+}
+
+.icon {
+    width: 3vw;
+    margin: 2vh 0 0 1vw;
+}
+
+.article-rose {
+    color: white;
+}
+
+.article-rose h4 {
+    font-size: 1.3rem;
+
+
+}
+
+.article-rose p {
+    font-size: 0.8rem;
+    padding-top: 2vh;
 }
