@@ -172,3 +172,161 @@ h1 {
     font-size: 0.8rem;
     padding-top: 2vh;
 }
+
+.section-4 {
+    text-align: center;
+    width: 75vw;
+    margin: auto;
+
+}
+
+.section-4 article {
+    border: 0.2rem solid #f9f9f9;
+    box-shadow: 4px 9px 14px 0px #8e8e81;
+}
+
+.profite {
+    font-size: 2rem;
+    text-align: center;
+    padding: 7vh 0 5vh 0;
+
+}
+
+.recom {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1vh;
+    color: #8e8e81;
+}
+
+.triangle {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 2vh solid #2d96c8;
+    border-right: 2vh solid transparent;
+    border-left: 2vh solid transparent;
+    text-align: center;
+    padding-bottom: 0.5vh;
+}
+
+.abonnement {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+}
+
+.article-blue {
+    background-color: #2d96c8;
+    color: white;
+}
+
+.abonnement h6 {
+    font-size: 1.2rem;
+    padding: 2vh 2vw 3vh 2vw;
+    font-weight: 500;
+}
+
+.abonnement p {
+    font-size: 0.9rem;
+    padding-bottom: 2vh;
+}
+
+.abonnement .prix {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.abonnement ul li {
+    padding-left: 2vw;
+    text-align: start;
+    padding: 2vh 3vw 0.7vh 2vw;
+}
+
+.gris {
+    color: #8e8e81;
+}
+
+.claire {
+    color: #e0d7bf
+}
+
+.positif {
+    color: #8e8e81;
+    padding-right: 0.5vw;
+
+}
+
+.negatif {
+    color: #8e8e81;
+    font-size: 1.3rem;
+    padding-right: 0.5vw;
+}
+
+.offert {
+    font-weight: 500;
+    padding-top: 5vh;
+}
+
+.offert-blue {
+    font-weight: 500;
+    padding-top: 6vh;
+    color: #2d96c8;
+}
+
+.button-gris {
+
+    border: solid 0.1rem #8e8e81;
+    color: white;
+    border-radius: 1rem;
+    background-color: #8e8e81;
+    height: 4vh;
+    width: 8vw;
+    margin: 8vh 0 3vh 0;
+
+}
+
+.button-rose {
+
+    border: solid 0.1rem #ef5466;
+    color: white;
+    border-radius: 1rem;
+    background-color: #ef5466;
+    height: 4vh;
+    width: 8vw;
+    margin: 1vh 0 3vh 0;
+
+}
+
+.button-7 {
+    border: solid 0.1rem #2d96c8;
+    color: #2d96c8;
+    border-radius: 1rem;
+    background-color: white;
+    height: 4vh;
+    width: 8vw;
+
+}
+
+.info {
+    display: block;
+    text-decoration: none;
+    color: #2d96c8;
+    padding-bottom: 5vh;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.info-blue {
+    color: white;
+}
+
+.descriptif {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #8e8e81;
+    padding: 7vh 0 4vh 0;
+}
