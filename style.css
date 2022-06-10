@@ -109,7 +109,7 @@ h1 {
     margin: auto;
     display: flex;
     background-color: #f9f9f9;
-    padding: 5vh 9vw 5vh 8vw;
+    padding: 5vh 0 5vh 8vw;
 }
 
 .phone-pic {
@@ -121,26 +121,31 @@ h1 {
     padding-left: 4vw;
     font-weight: 600;
     letter-spacing: 0.1rem;
-    padding-bottom: 7vh;
+    padding-bottom: 4vh;
 }
 
 .container-1 {
     display: flex;
-    gap: 2vw;
-    padding-left: 4vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 35vw;
+    margin-left: 3vw;
 
+}
+
+.container-1 article {
+    width: 15vw;
 }
 
 .container-1 h5 {
     font-size: 1rem;
-    font-weight: 500;
-
-
+    font-weight: 600;
 }
 
 .article-box p {
     font-size: 0.7rem;
-    padding: 4vh 0 4vh 0;
+    padding: 3vh 0 2vh 0;
+    color: #8e8e81;
 }
 
 .section-3 {
@@ -342,7 +347,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: #e8e7e6;
-    padding: 3vh 5vw 3vh 5vw;
+    padding: 3vh 10vw 3vh 10vw;
     height: 14vh;
 }
 
@@ -373,9 +378,97 @@ h1 {
     height: 4vh;
     width: 8vw;
     margin-top: 2vh;
+    font-size: 0.8em;
 }
 
 .percent {
     color: #ef5466;
     font-weight: 700;
+}
+
+footer {
+    width: 75vw;
+    margin: auto;
+    background-color: #1b1b1c;
+}
+
+footer p {
+    font-size: 0.7rem;
+    color: white;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0 5vh 0;
+    gap: 2vw;
+}
+
+.store {
+    width: 8vw;
+}
+
+.footer-box {
+    display: flex;
+    width: 75vw;
+    justify-content: space-evenly;
+    padding: 0 8vw 5vh 4vw;
+    gap: 3vw;
+}
+
+.footer-box p {
+    font-size: 0.7rem;
+    color: #8e8e81;
+    padding-bottom: 3vh;
+
+}
+
+.footer-box a {
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-box ul li {
+    padding-bottom: 2vh;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7vw 5vh 6vw;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    display: flex;
+}
+
+.logo-2 {
+    width: 10vw;
+    color: aliceblue;
+}
+
+.icons {
+    color: white;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+}
+
+select {
+    width: 5rem;
+    font-size: 0.8rem;
+    color: white;
+    background-color: #1b1b1c;
+    border: transparent;
+}
+
+.copyright {
+    color: #8e8e81;
 }
