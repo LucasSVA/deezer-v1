@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/6752a0213c.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -29,7 +30,7 @@
         <section class="section-1">
             <article class="article-1">
                 <h1>Vos émotions méritent <br>d'avoir leur musique</h1>
-                <h3>Progitez de 3 mois offert pour éssayer <br>Dizzer Premium*</h3>
+                <h3>Progitez de 3 mois offerts pour essayer <br>Dizzer Premium*</h3>
                 <button id="button-3" class="button-3">Deezer Premium</button>
                 <button id="button-4" class="button-4">Deezer Gratuit</button>
             </article>
@@ -50,7 +51,9 @@
                             parde
                             nouveaux coups de coeur
                         </p>
+                    </article>
 
+                    <article class="article-box">
                         <h5>Créez votre bibliothèque <br> musicale</h5>
                         <p>Recherchez parmi des milliond de titres pour <br> créer vos propres playlists et emportez-les
                             <br>
@@ -59,12 +62,16 @@
                     </article>
                     <article class="article-box">
                         <h5>Pas de WIFI <br> pas de problème</h5>
-                        <p>Avec deezer Premium, vous n'avez pas besoin <br> d'être connecté à Internet pour profiter de
+                        <p>Avec deezer Premium, vous n'avez pas besoin <br> d'être connecté à Internet pour profiter
+                            de
                             <br>
                             de votre musique préférée.
                         </p>
+                    </article>
+                    <article class="article-box">
                         <h5>Un Deezer qui vous ressemble</h5>
-                        <p>Flow apprend à connaitre ce que vous aimez <br> et ce que vous n'aimez pas. Découvrez votre
+                        <p>Flow apprend à connaitre ce que vous aimez <br> et ce que vous n'aimez pas. Découvrez
+                            votre
                             <br>bande son personnalisée.
                         </p>
                     </article>
@@ -156,7 +163,7 @@
         <section class="section-6">
             <div class="horizontal">
                 <article class="article-5">
-                    <p class="annuel">Abonnement annule <b class="percent"> -25% </b></p>
+                    <p class="annuel">Abonnement annuel <b class="percent"> -25% </b></p>
                     <p class="premium">Un an d'abonnement à Deezer Premium pour 89,90€ au lieu de 119,99€ </p>
                     <a href="#">en savoire plus</a>
                 </article>
@@ -182,11 +189,11 @@
         </section>
     </main>
     <footer>
-        <section class="section-9">
-            <img src="img/app.png" alt="photo apple-store" width="100px">
-            <img src="img/google.jpg" alt="photo apple-store" width="100px">
+        <section class="logo-footer">
+            <img src="img/app.png" alt="photo apple-store" class="store">
+            <img src="img/google.png" alt="photo apple-store" class="store">
         </section>
-        <section class="section-10">
+        <section class="footer-box">
             <div>
                 <p>Deeze</p>
                 <ul>
@@ -226,22 +233,24 @@
                 </ul>
             </div>
         </section>
-        <section class="section-11">
+
+        <section class="footer-icons">
             <div class="icones-footer">
-                <img src="img/facebook.png" alt="icone facebook">
-                <img src="img/instagram.png" alt="icone instagram">
-                <img src="img/twitter.png" alt="icone twitter">
-                <img src="img/youtube.png" alt="icone youtibe">
+                <a href="#"> <i class="fa-brands fa-facebook-square icons"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram icons"></i></a>
+                <a href="#"> <i class="fa-brands fa-twitter-square icons"></i></a>
+                <a href="#"> <i class="fa-brands fa-youtube-square icons"></i></a>
             </div>
-            <img src="img/logo.png" alt="photo logo" width="100px">
+            <img src="img/logo.png" alt="photo logo" class="logo-2">
             <div class="menu">
-                <p>© 2021 Deezer</p>
+                <p class="copyright">© 2021 Deezer</p>
                 <div class="dropdown">
-                    <button class="click">langues</button>
                     <div class="dropdown-child">
-                        <p>Français</p>
-                        <p>Anglais</p>
-                        <p>Géorgien</p>
+                        <select id="langue" name="langue">
+                            <option>Français</option>
+                            <option>Anglais</option>
+                            <option>Géorgien</option>
+                        </select>
                     </div>
                 </div>
             </div>
