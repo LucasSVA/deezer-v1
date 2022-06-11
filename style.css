@@ -214,6 +214,14 @@ h1 {
     color: #8e8e81;
 }
 
+.recom-2 {
+    display: none;
+}
+
+.triangle-2 {
+    display: none;
+}
+
 .triangle {
     display: inline-block;
     height: 0;
@@ -599,5 +607,222 @@ select {
         font-size: 0.8rem;
         color: #807675;
     }
+
+    .section-3 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 95vw;
+        align-items: center;
+        text-align: center;
+        padding: 0 3vw 0 2.6vw;
+    }
+
+    .section-3 p br {
+        display: none;
+    }
+
+    .article-rose h4 {
+        font-size: 2rem;
+        padding: 3vh 0 2vh 0;
+    }
+
+    .article-rose p {
+        font-size: 0.9rem;
+        line-height: 3vh;
+
+    }
+
+    .icon {
+        width: 8vw;
+        padding-bottom: 5vh;
+    }
+
+    .section-4 {
+        width: 95vw;
+    }
+
+    .profite {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .recom {
+        display: none;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+    .abonnement {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abonnement article {
+        width: 80vw;
+    }
+
+    .recom-2 {
+        display: block;
+        font-size: 5rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 4vh 0 2vh 0;
+        color: #8e8e81;
+        font-weight: 700;
+    }
+
+    .triangle-2 {
+        display: inline-block;
+        height: 0;
+        width: 0;
+        border-top: 2vh solid #2d96c8;
+        border-right: 2vh solid transparent;
+        border-left: 2vh solid transparent;
+        text-align: center;
+        padding-bottom: 2vh;
+
+
+    }
+
+    .button-gris {
+        width: 60vw;
+        height: 6vh;
+        border-radius: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .abonnement a {
+        font-size: 1.2rem;
+    }
+
+    .button-rose {
+
+        width: 60vw;
+        height: 6vh;
+        border-radius: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .article-blue {
+        margin-bottom: 2.5vh;
+    }
+
+    .article-blue .offert {
+        font-size: 1.2rem;
+    }
+
+    .article-4-blan .offert-blue {
+        font-size: 1.2rem;
+
+    }
+
+    .abonnement h6 {
+        font-size: 2rem;
+    }
+
+    .abonnement .mois {
+        font-size: 1.2rem;
+    }
+
+    .descriptif {
+        font-size: 0.7rem;
+        width: 85vw;
+        text-align: justify;
+    }
+
+    .section-6 {
+        width: 95vw;
+
+    }
+
+    .horizontal {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .horizontal a {
+        font-size: 1rem;
+    }
+
+    .button-last {
+
+        border: solid 0.2rem #696868;
+        color: #696868;
+        border-radius: 1rem;
+        background-color: transparent;
+        height: 4vh;
+        width: 50vw;
+        margin-top: 2vh;
+        font-size: 0.8em;
+        margin: auto;
+
+    }
+
+    .premium {
+        display: none;
+    }
+
+    footer {
+        width: 95vw;
+    }
+
+    .logo-footer {
+        width: 95vw;
+        padding: 10vh 0 6vh 0;
+    }
+
+    .footer-box {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .store {
+        width: 40vw;
+    }
+
+    .footer-box p {
+        font-size: 1.5rem;
+        padding: 6vh 0 5vh 0;
+    }
+
+    .footer-box a {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .footer-icons {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons {
+        font-size: 2.2rem;
+        padding: 6vh 4vw 6vh 4vw;
+    }
+
+    .logo-2 {
+        width: 50vw;
+        padding-bottom: 6vh;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        padding-bottom: 10vh;
+    }
+
+
+
 
 }
